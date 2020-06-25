@@ -2,7 +2,6 @@
 # I decided to do everything individually to keep things as transparent
 # as possible.
 
-
 dotfiles=~/dotfiles
 dotfiles_b=$dotfiles/backup
 
