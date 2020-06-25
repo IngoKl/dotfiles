@@ -1,0 +1,7 @@
+become() {
+    if [[ "$1" ]]; then
+        sudo su - "$1" -s /bin/bash
+    else
+        echo provide a username
+    fi
+}
