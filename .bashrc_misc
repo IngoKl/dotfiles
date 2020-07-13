@@ -5,3 +5,11 @@ become() {
         echo provide a username
     fi
 }
+
+nginxactivate() {
+    if [[ "$1" ]]; then
+        sudo ln -s /etc/nginx/sites-available/$1 /etc/nginx/sites-enabled/
+    else
+        echo provide a config name
+    fi
+}
