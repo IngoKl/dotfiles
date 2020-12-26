@@ -13,3 +13,12 @@ cd dotfiles
 ./install_linux.sh
 
 ```
+
+### Windows 10
+
+```
+git clone https://github.com/IngoKl/dotfiles.git
+cd dotfiles
+install_windows.bat
+
+```
