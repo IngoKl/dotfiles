@@ -6,10 +6,5 @@ set positionlog
 set regexp
 set showcursor
 
-# Colors
-set statuscolor lime,black
-set stripecolor	orange,black
-set titlecolor	lime,black
-
 # Deprecated
 set smooth
