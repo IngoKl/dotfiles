@@ -16,7 +16,7 @@ nginxactivate() {
 
 findtext() {
     if [[ "$1" ]]; then
-        grep -rnw . -e '$1'
+        grep -rnw . -e "$1"
     else
         echo provide a search term
     fi
