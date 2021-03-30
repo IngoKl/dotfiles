@@ -13,3 +13,11 @@ nginxactivate() {
         echo provide a config name
     fi
 }
+
+findtext() {
+    if [[ "$1" ]]; then
+        grep -rnw . -e '$1'
+    else
+        echo provide a search term
+    fi
+}
