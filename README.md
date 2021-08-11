@@ -23,6 +23,17 @@ install_windows.bat
 
 ```
 
+### ZSH Quick Fix
+
+When using `zsh` (e.g., on *Kali*), most aliases/tools can still be used. 
+To do so, add the following lines (assuming you cloned into your home folder) to your `~/.zshrc`.
+
+```bash
+source $HOME/dotfiles/.bashrc_pentesting
+source $HOME/dotfiles/.bashrc_misc
+source $HOME/dotfiles/.bash_aliases
+```
+
 ## To Do
 
 * Link/Use (bash) aliases in a new `.zshrc`.
