@@ -22,3 +22,7 @@ cd dotfiles
 install_windows.bat
 
 ```
+
+## To Do
+
+* Link/Use (bash) aliases in a new `.zshrc`.
