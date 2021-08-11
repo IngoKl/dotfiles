@@ -14,16 +14,7 @@ cd dotfiles
 
 ```
 
-### Windows 10
-
-```
-git clone https://github.com/IngoKl/dotfiles.git
-cd dotfiles
-install_windows.bat
-
-```
-
-### ZSH Quick Fix
+#### ZSH Quick Fix
 
 When using `zsh` (e.g., on *Kali*), most aliases/tools can still be used. 
 To do so, add the following lines (assuming you cloned into your home folder) to your `~/.zshrc`.
@@ -32,6 +23,15 @@ To do so, add the following lines (assuming you cloned into your home folder) to
 source $HOME/dotfiles/.bashrc_pentesting
 source $HOME/dotfiles/.bashrc_misc
 source $HOME/dotfiles/.bash_aliases
+```
+
+### Windows 10
+
+```
+git clone https://github.com/IngoKl/dotfiles.git
+cd dotfiles
+install_windows.bat
+
 ```
 
 ## To Do
