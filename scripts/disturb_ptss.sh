@@ -7,19 +7,15 @@ then
   exit
 fi
 
-readarray -t own_pts <<< "$(ps aux | grep pts | grep $PPID | awk '{print $7}' | cut -f2 -d/)"
-ptss=$(ps aux | grep pts | awk '{print $7}' | cut -f2 -d/)
-
-current_pts=${own_pts[1]}
-
-echo $current_pts
+current_pts=$(tty | cut -c 6-)
+ptss=$(ps aux | grep pts | awk '{print $7}')
 
 while [ True ]; do
   for pts in $ptss
   do
     if [ ! $current_pts = $pts ]; then
       echo "Writing /dev/urandom to pts $pts"
-      head -5 /dev/urandom > /dev/pts/$pts
+      head -5 /dev/urandom > /dev/$pts
     fi
   done
 done
