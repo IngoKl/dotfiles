@@ -34,6 +34,10 @@ install_windows.bat
 
 ```
 
+## Scripts
+
+The `scripts` folder contains some (fairly random) scripts.
+
 ## To Do
 
 * Link/Use (bash) aliases in a new `.zshrc`.
