@@ -41,3 +41,4 @@ The `scripts` folder contains some (fairly random) scripts.
 ## To Do
 
 * Link/Use (bash) aliases in a new `.zshrc`.
+* Add more of my scripts and create an alias file for them
