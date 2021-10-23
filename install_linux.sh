@@ -14,6 +14,7 @@ sudo mv ~/.bash_aliases $dotfiles_b
 sudo mv ~/.tmux.conf $dotfiles_b
 sudo mv ~/.nanorc $dotfiles_b
 sudo mv ~/.gdbinit $dotfiles_b
+sudo mv ~/.teamocil $dotfiles_b
 
 # Create symlinks
 ln -sf $dotfiles/.config/nvim/init.vim ~/.config/nvim/init.vim
@@ -23,4 +24,5 @@ ln -sf $dotfiles/.bashrc_misc ~/.bashrc_misc
 ln -sf $dotfiles/.bashrc_pentesting ~/.bashrc_pentesting
 ln -sf $dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf $dotfiles/.nanorc ~/.nanorc
-ln -sf $dotfiles/..gdbinit ~/.gdbinit
+ln -sf $dotfiles/.gdbinit ~/.gdbinit
+ln -sf $dotfiles/.teamocil ~/.teamocil
