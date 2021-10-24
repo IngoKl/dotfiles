@@ -11,5 +11,9 @@ windows:
      - clear
   - name: MSF
     panes:
-      - msfconsole     
+      - msfconsole 
+  - name: RECON/ENUM
+    panes:
+     - clear
+     - clear
   - name: ATK
