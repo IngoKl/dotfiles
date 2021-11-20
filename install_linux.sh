@@ -26,3 +26,6 @@ ln -sf $dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf $dotfiles/.nanorc ~/.nanorc
 ln -sf $dotfiles/.gdbinit ~/.gdbinit
 ln -sf $dotfiles/.teamocil ~/.teamocil
+
+# Rights
+chmod +x $dotfiles/scripts/*
