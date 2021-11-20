@@ -7,4 +7,4 @@ set regexp
 set showcursor
 
 # Deprecated
-set smooth
+# set smooth
