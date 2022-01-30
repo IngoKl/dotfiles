@@ -38,6 +38,8 @@ class Host:
                 self.ping = '[green]Response[/green]'
             else:
                 self.ping = '[red]No Response[/red]'
+        except PermissionError:
+            self.ping = 'Permission Error'
         except:
             self.ping = 'Unknown'
 
